@@ -1,1 +1,24 @@
 /*  your css code here. If applicable */
+:root{
+	background-color:skyblue;
+}
+.para1{
+	color:white;
+	background-color:black;
+	
+}
+.para4{
+	color:red;
+}
+.container li:first-child{
+	background-color:white;
+}
+.container li:nth-child(2n){
+	background-color:slategray;
+}
+.container li:nth-child(3n){
+	background-color:pink;
+}
+.container li:last-child{
+	background-color:white;
+}
